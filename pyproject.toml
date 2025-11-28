@@ -1,0 +1,18 @@
+[project]
+name = "titanic-survival-qml-project"
+version = "0.1.0"
+description = "Quantum Squared-Distance Classifier - Exact Implementation of Schuld & Petruccione Chapter 1.2"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "qiskit>=2.2.3",
+    "qiskit-aer>=0.17.2",
+    "matplotlib>=3.10.7",
+    "seaborn>=0.13.2",
+    "notebook>=7.5.0",
+    "pylatexenc>=2.10",
+    "qiskit-ibm-runtime>=0.43.1",
+    "dotenv>=0.9.9",
+]
