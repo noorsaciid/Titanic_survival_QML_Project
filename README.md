@@ -1,9 +1,5 @@
 # Titanic Survival Prediction with Quantum Machine Learning
 
-**Exact Implementation** of Schuld & Petruccione's *Supervised Learning with Quantum Computers*, Chapter 1.2
-
-A pedagogical quantum machine learning project implementing the quantum squared-distance classifier with 4-qubit amplitude encoding, Hadamard interference, and post-selection.
-
 ---
 
 ## 📚 Project Overview
@@ -23,25 +19,18 @@ This project implements the **exact toy example** from:
 - Post-selection on q0 = 0
 - Classification from q3 measurement
 
-✅ **Pedagogical Design**
+✅ **Design**
 - Step-by-step Jupyter notebooks
 - Extensive comments explaining theory
 - Visualizations at each step
 - Verification against book's expected output
 
-✅ **Production-Ready Code**
-- Qiskit 2.2.3+ (stable quantum framework)
-- Modular architecture
-- Comprehensive documentation
-- Full test coverage
-
----
 
 ## 🎯 Quick Start
 
 ### Prerequisites
 
-- Python 3.10+
+- Python 3.12+
 - uv (recommended) or pip
 
 ### Installation
@@ -95,9 +84,6 @@ Titanic_survival_QML_Project/
 │   ├── 01_circuit_build_and_interference.ipynb    # STEP C
 │   ├── 02_measurement_and_classification.ipynb    # STEPS D, E
 │   └── 03_exact_book_implementation_4qubit.ipynb  # All steps
-└── legacy/                      # Deprecated implementations
-    └── pennylane_2qubit_classifier_DEPRECATED.py
-```
 
 ---
 
@@ -238,8 +224,6 @@ Core (7 packages):
 - Measure q3 for classification
 - Compare with book's expected output
 
-### 03_exact_book_implementation_4qubit.ipynb
-**All steps in one notebook** for easy reference and verification
 
 ---
 
@@ -252,78 +236,12 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design, including:
 - Best practices
 - Extension guidelines
 
----
-
-## 🧑‍💻 Development
-
-### Code Style
-- Follow PEP 8 guidelines
-- Use book's naming convention (P1, P2, P3)
-- Document theory in markdown cells
-- Verify against book's expected output
-
-### Testing
-```bash
-# Run all notebooks
-jupyter nbconvert --execute --to notebook --inplace Notebooks/*.ipynb
-
-# Run standalone script
-python exact_4qubit_classifier.py
-```
-
-### Adding New Features
-1. Maintain book compliance
-2. Document theory and motivation
-3. Verify output against expected values
-4. Update ARCHITECTURE.md if needed
-
----
-
-## 📚 References
-
-1. **Primary Source:**
-   - Schuld, M., & Petruccione, F. (2018). *Supervised Learning with Quantum Computers*. Springer.
-   - Chapter 1.2: A Simple Classifier
-
-2. **Quantum Computing:**
-   - [Qiskit Documentation](https://qiskit.org/documentation/)
-   - [Qiskit Textbook](https://qiskit.org/learn/)
-
-3. **Quantum Machine Learning:**
-   - [PennyLane QML Resources](https://pennylane.ai/qml/)
-   - [Quantum Algorithms](https://quantum-algorithms.org/)
-
----
-
-## 🤝 Contributing
-
-This is a pedagogical project implementing a specific book example. Contributions should:
-- Maintain exact book compliance
-- Improve documentation or visualizations
-- Fix bugs without changing algorithm behavior
-- Add tests or verification checks
-
----
-
-## 📜 License
-
-This project is for educational purposes, implementing the algorithm described in:
-*Schuld & Petruccione – Supervised Learning with Quantum Computers (2018)*
-
----
 
 ## 👥 Authors
 
-**ACIT4321 Quantum Computing Project**  
+**Saciid Ahmed Noor**  
 OsloMet – Oslo Metropolitan University
 
----
-
-## 🙏 Acknowledgments
-
-- Maria Schuld and Francesco Petruccione for the excellent textbook
-- Qiskit team for the quantum computing framework
-- OsloMet for course materials and support
 
 ---
 
