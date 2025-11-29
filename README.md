@@ -224,23 +224,9 @@ Core (7 packages):
 - Measure q3 for classification
 - Compare with book's expected output
 
-
----
-
-## 🏗️ Architecture
-
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design, including:
-- Component architecture
-- Data flow diagrams
-- Circuit design
-- Best practices
-- Extension guidelines
-
-
 ## 👥 Authors
 
 **Saciid Ahmed Noor**  
-OsloMet – Oslo Metropolitan University
 
 
 ---
